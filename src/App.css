@@ -1,38 +1,112 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&family=Sofia+Sans:wght@400;500;600;700;800&display=swap");
+.container {
+  margin: 10px 20px;
+  font-family: "Sofia Sans", sans-serif;
+}
+.container .head1 {
   text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 800;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container .add {
+  text-align: center;
+  margin-bottom: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container .tel {
+  text-align: center;
+  margin-bottom: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container .head2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 25px;
+}
+.container .head4 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.container .head5 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+table {
+  width: 100%;
+  border-spacing: 0;
+  /* margin:auto; */
+  border-collapse: collapse;
+}
+td {
+  text-align: center;
+  padding-top: 10px;
+}
+th {
+  text-align: center;
+  padding-top: 28px;
+}
+.item {
+  text-align: left;
+}
+.amt {
+  text-align: right;
+}
+.gst {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+}
+.grTotal {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 800;
+}
+.footer {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.space{
+  margin-right:100px;
+  font-weight: 600;
+}
+.space2 {
+  margin-right: 60px;
+}
+@media only screen and (min-width: 400px) {
+  .space2 {
+    margin-right: 100px;
   }
-  to {
-    transform: rotate(360deg);
+  .space{
+    margin-right: 150px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .container{
+    margin:10px 30px;
+  }
+  .space2 {
+    margin-right: 250px;
+  }
+  .space{
+    margin-right:290px
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container{
+    margin:10px 50px;
+  }
+  .space2 {
+    margin-right: 500px;
+  }
+  .space{
+    margin-right: 550px;
   }
 }

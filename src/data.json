@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "item": "PACKAGED DRINKING WATER",
+      "qty": 1.0,
+      "rate": 50
+    },
+    {
+      "item": "SELECTED COCKTAILS @199",
+      "qty": 4.0,
+      "rate": 199
+    },
+    {
+      "item": "BIRA WHITE PINT @199",
+      "qty": 5.0,
+      "rate": 199
+    },
+    {
+      "item": "LACHICA 30ML @199",
+      "qty": 10.0,
+      "rate": 199
+    },
+    {
+      "item": "BUDWISER PINT @199",
+      "qty": 3.0,
+      "rate": 199
+    },
+    {
+      "item": "EXOTIC FARM HOUSE PIZZA",
+      "qty": 1.0,
+      "rate": 299
+    },
+    {
+      "item": "SPAGHETTI SAUCE CHOICE",
+      "qty": 2.0,
+      "rate": 299
+    },
+    {
+      "item": "CHICKEN LASAGANE",
+      "qty": 1.0,
+      "rate": 349
+    },
+    {
+      "item": "HOT BOX",
+      "qty": 1.0,
+      "rate": 650
+    },
+    {
+      "item": "PAPAD COMPLIMENTARY",
+      "qty": 1.0,
+      "rate": 0
+    }
+  ]
+}
